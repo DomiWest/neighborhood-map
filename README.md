@@ -11,5 +11,5 @@
 #### Execute the sourcecode
 There are two ways to run the application:
 
-* Live Demo: [Neighborhood Map Nuremberg]()    
+* Live Demo: [Neighborhood Map Nuremberg](http://htmlpreview.github.io/?https://github.com/DomiWest/neighborhood-map/blob/master/maps.html)    
 * Download this repo and open `maps.html` in any browser.
