@@ -1,0 +1,137 @@
+header {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: #FBF8F8;
+  border-top: 2px solid #7d97ad;
+  border-bottom: 2px solid #7d97ad;
+  top: 0;
+  left: 0;
+  height: 8%;
+}
+
+.menu-button {
+  font-family: sans-serif;
+  color: #2d3c49;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.title {
+  font-family: sans-serif;
+  color: #2d3c49;
+  font-size: 1.7em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidenav {
+    position: fixed;
+    height: 92%;
+    top: 8.75%;
+    left: 0;
+    width: 0;
+    padding-top: 60px;
+    z-index: 1;
+    background-color: #FBF8F8;
+    overflow-x: hidden;
+    transition: 0.3s;
+    opacity: 0.95;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+.sidenav a:hover {
+    color: #848484
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+ .placesList {
+   padding: 1em;
+   margin-left: 5%;
+   margin-top: 0;
+   margin-bottom: 0;
+   line-height: 2.0;
+   font-family: sans-serif;
+   color: #2d3c49;
+   cursor: pointer;
+ }
+
+ .search-box {
+   font-size: 1.2em;
+   margin-left: 5%;
+   padding: 5px;
+   color: #2d3c49;
+
+ }
+
+ .clear-button {
+   cursor: pointer;
+   background-color: #4CAF50;
+   padding: 6px 12px;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   margin-left: 1%;
+ }
+
+.filter {
+  display: flex;
+	align-items: center;
+}
+
+ #map {
+   bottom:0;
+   height: 92%;
+   left: 0;
+   top: 8%;
+   position: absolute;
+   right: 0;
+   z-index: -1;
+ }
+
+.info-header {
+  background: #04127C;
+  border-radius: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+ .info-title {
+   font-family: sans-serif;
+   color: #FAFAFA;
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+
+ .info-title2 {
+   font-family: sans-serif;
+   color: #2d3c49;
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+
+a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
